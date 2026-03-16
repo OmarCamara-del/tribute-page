@@ -1,0 +1,70 @@
+/* Base style for the body */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  background-color: #f9f9f9;
+  color: #333;
+  text-align: center;
+}
+
+/* Class selector */
+.subtitle {
+  font-style: italic;
+  color: #555;
+}
+
+/* Element selector */
+h2 {
+  color: #006400;
+}
+
+/* ID selector (higher specificity overrides h2 above) */
+#highlight-title {
+  color: darkred;
+  text-transform: uppercase;
+}
+
+header {
+  background-color: #222;
+  color: #fff;
+  padding: 2rem;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.intro img {
+  max-width: 250px;
+  border-radius: 50%;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.3);
+  margin: 1rem 0;
+}
+
+.timeline ul {
+  list-style: none;
+  padding: 0;
+}
+
+.timeline li {
+  padding: 0.5rem 0;
+}
+
+blockquote {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #444;
+  margin: 2rem auto;
+  max-width: 600px;
+  border-left: 4px solid #006400;
+  padding-left: 1rem;
+}
+
+footer {
+  background: #222;
+  color: #eee;
+  padding: 1rem;
+  font-size: 0.9rem;
+}
